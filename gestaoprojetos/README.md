@@ -1,40 +1,48 @@
-# Gestão de Projetos
+# Gestão de Projetos - React + TypeScript
 
 Aplicação web desenvolvida com React e TypeScript para gestão de projetos e tarefas.
 
 ## Funcionalidades
 
-- Criar projetos
-- Remover projetos
-- Adicionar tarefas
-- Remover tarefas
-- Alterar o estado das tarefas
-- Calcular o progresso do projeto
-- Guardar dados no localStorage
-- Validação de campos obrigatórios
+- Criar, editar e remover projetos
+- Criar, editar e remover tarefas
+- Alterar estado das tarefas
+- Calcular progresso automático
+- Persistência de dados com localStorage
+- Testes unitários com Vitest
 
 ## Tecnologias utilizadas
 
 - React
 - TypeScript
 - Vite
+- Vitest
 - CSS
-- localStorage
 
-## Como executar o projeto
+## Executar o projeto
 
-1. Instalar dependências:
-
+```bash
 npm install
-
-2.Iniciar o servidor:
-
 npm run dev
+```
 
-3.Abrir no browser:
+## Executar testes
 
-[http://localhost:5173](http://localhost:5173)
+```bash
+npm test
+```
 
 ## Estrutura
 
-A aplicação utiliza componentes funcionais, Hooks do React, classes TypeScript, interfaces e armazenamento local no browser
+A aplicação utiliza:
+
+- Componentes funcionais React
+- Hooks (`useState` e `useEffect`)
+- Custom Hook (`useLocalStorage`)
+- Classes TypeScript
+- Interfaces TypeScript
+- Organização modular
+
+## Autor
+
+Petra Ferreira
