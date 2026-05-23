@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  color: #1e293b;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.app > p {
+  color: #64748b;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.formulario,
+.formulario-tarefa,
+.editar-projeto {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f8fafc;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+input,
+select {
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #1e293b;
+  min-width: 220px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 28px;
+  border-radius: 18px;
+  margin-top: 24px;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.12);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2563eb;
+  font-size: 28px;
+}
+
+.card p {
+  color: #334155;
+  font-size: 17px;
+  margin: 8px 0;
+}
+
+.card > button {
+  margin: 14px 6px;
+}
+
+.card > button:first-of-type {
+  background-color: #dc2626;
+}
+
+.card > button:first-of-type:hover {
+  background-color: #b91c1c;
+}
+
+ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px;
+  margin-top: 14px;
+  color: #334155;
+}
+
+li strong {
+  font-size: 18px;
+  color: #0f172a;
+}
+
+li span {
+  display: inline-block;
+  margin-top: 6px;
+  color: #475569;
+}
+
+li small {
+  display: inline-block;
+  margin-top: 6px;
+  color: #64748b;
+}
+
+li input {
+  margin: 6px;
+}
+
+li select {
+  margin-top: 14px;
+  margin-right: 10px;
+  min-width: 150px;
+}
+
+li button {
+  margin-top: 14px;
+  background-color: #dc2626;
+}
+
+li button:hover {
+  background-color: #b91c1c;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #166534;
+  font-weight: bold;
+  background-color: #dcfce7;
+  border-color: #86efac;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .app {
+    padding: 25px 14px;
+  }
+
+  .formulario,
+  .formulario-tarefa,
+  .editar-projeto {
+    flex-direction: column;
+  }
+
+  input,
+  select,
+  button {
+    width: 100%;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
