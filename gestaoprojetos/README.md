@@ -1,48 +1,48 @@
-# Gestão de Projetos - React + TypeScript
+# Project Management — React + TypeScript
 
-Aplicação web desenvolvida com React e TypeScript para gestão de projetos e tarefas.
+A web application developed with React and TypeScript for managing projects and tasks.
 
-## Funcionalidades
+## Features
 
-- Criar, editar e remover projetos
-- Criar, editar e remover tarefas
-- Alterar estado das tarefas
-- Calcular progresso automático
-- Persistência de dados com localStorage
-- Testes unitários com Vitest
+* Create, edit, and delete projects
+* Create, edit, and delete tasks
+* Update task status
+* Automatically calculate project progress
+* Store data persistently using `localStorage`
+* Unit testing with Vitest
 
-## Tecnologias utilizadas
+## Technologies Used
 
-- React
-- TypeScript
-- Vite
-- Vitest
-- CSS
+* React
+* TypeScript
+* Vite
+* Vitest
+* CSS
 
-## Executar o projeto
+## How to Run the Project
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Executar testes
+## How to Run the Tests
 
 ```bash
 npm test
 ```
 
-## Estrutura
+## Project Structure
 
-A aplicação utiliza:
+The application uses:
 
-- Componentes funcionais React
-- Hooks (`useState` e `useEffect`)
-- Custom Hook (`useLocalStorage`)
-- Classes TypeScript
-- Interfaces TypeScript
-- Organização modular
+* React functional components
+* React Hooks (`useState` and `useEffect`)
+* Custom Hook (`useLocalStorage`)
+* TypeScript classes
+* TypeScript interfaces
+* Modular code organization
 
-## Autor
+## Author
 
-Petra Ferreira
+Developed by [Petra Ferreira](https://github.com/PetraFerreira).
